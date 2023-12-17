@@ -31,6 +31,6 @@ export default defineConfig({
   },
   base: '/cornerside/',
   sitemap: {
-    hostname: 'https://nclsprsn.github.com'
+    hostname: 'https://nclsprsn.github.com/cornerside/'
   }
 })
