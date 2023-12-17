@@ -5,21 +5,20 @@ layout: home
 hero:
   name: "cornerside"
   text: "A website for architects"
-  tagline: My great project tagline
+  tagline: Design, Build and Ship
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Technical Design
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Roles
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: A solution
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: The alternatives
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Examples
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

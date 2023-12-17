@@ -11,6 +11,10 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
+    search: {
+      provider: 'local'
+    },
+    
     sidebar: [
       {
         text: 'Examples',
@@ -22,8 +26,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/nclsprsn/cornerside' }
     ]
   },
-  base: '/cornerside/'
+  base: '/cornerside/',
+  sitemap: {
+    hostname: 'https://nclsprsn.github.com'
+  }
 })
